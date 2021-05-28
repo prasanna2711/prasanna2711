@@ -1,0 +1,35 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">BaseLine Live Server Inormation</h4>
+                    </div>
+                    <div class="content table-responsive table-full-width">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th [ngStyle]="{'background-color':'yellow'}"
+                                        class="stickey_header ">Date</th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header  tab-hide">Build Number </th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header ">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let list of liveServerList">
+                                    <td style="text-transform: capitalize">{{list.date}}</td>
+                                    <td style="text-transform: capitalize">{{list.buildNumber}}</td>
+                                    <td style="text-transform: capitalize">{{list.status}}</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+
+.ex1 {
+  
+    cursor: pointer;
+    max-height: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .ex2 {
+    cursor: pointer;
+    max-height: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .ex3 {
+  
+    cursor: pointer;
+    max-height: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .pull-right{
+    margin-left: 40% !important;
+}
+.table-border-dash{
+  border: 1px solid #dee2e6 !important;
+  text-align: center;
+}
+  /* **********************Fixed Head Start************************ */
+  .stickey_header{
+    position: sticky;
+    top: 0;
+    border: none;
+    color: white;
+  }
+  /* ***********************Fixed Head End************************* */
+  button.btn.animation-rotation-status {
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: auto;
+}
+.animation-rotation-status-not{
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: auto !important;
+}
+.animation-rotation-status-edit{
+    color: #188ae2 ;
+    background-color: transparent;
+    border: 2px solid #188ae2;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: auto;
+}
+.animation-rotation {
+    border-radius: 50%;
+    font-size: 15px !important;
+    padding: 5px 5px !important;
+}
+
+@media (max-width:992px) {
+  .tab-width-ex1{
+    height: 550px;
+  }
+  .ex3 {
+      cursor: pointer;
+      min-height: 250px;
+      height: auto !;
+      overflow-x: hidden;
+      overflow-y: auto;
+      max-height: 700px !important;
+  }
+  .ex2 {
+    cursor: pointer;
+    min-height: 250px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 700px !important;
+  }
+  .ex1 {
+  
+    cursor: pointer;
+    max-height: 700px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

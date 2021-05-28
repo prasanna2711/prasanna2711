@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.prasanna.service.DataService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.prasanna.entity.LiveServer"/>
+    <fullyQualifiedTypeName name="com.prasanna.entity.Server"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="com.prasanna.entity.TestServer"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.DataFormatter"/>
+    <fullyQualifiedTypeName name="com.prasanna.entity.DailyData"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="com.prasanna.entity.CurrentExecution"/>
+</qualifiedTypeNameHistroy>

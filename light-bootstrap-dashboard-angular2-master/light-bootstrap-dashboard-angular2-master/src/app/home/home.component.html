@@ -1,0 +1,40 @@
+<div class="main-content">
+    <div class="container-fluid">
+    
+        <div class="row">
+            <div class="col-md-10">
+                <lbd-chart 
+                  [title]="'DAILY_DATA'"
+                  [subtitle]="'TEST SERVER'"
+                  [chartType]="activityChartType"
+                  [chartData]="activityChartData"
+                  [chartOptions]="activityChartOptions"
+                  [chartResponsive]="activityChartResponsive"
+                  [legendItems]="activityChartLegendItems"
+                  [withHr]="true"
+                  [footerIconClass]="'fa fa-check'"
+                  [footerText]="'Daily_Data information '">
+                </lbd-chart>
+            </div>
+           
+        </div>
+
+        <div class="row">
+            <div class="col-md-10">
+                <lbd-chart
+                  [title]="'DAILY_DATA'"
+                  [subtitle]="'LIVE SERVER'"
+                  [chartType]="activityChartType1"
+                  [chartData]="activityChartData1"
+                  [chartOptions]="activityChartOptions1"
+                  [chartResponsive]="activityChartResponsive1"
+                  [legendItems]="activityChartLegendItems1"
+                  [withHr]="true"
+                  [footerIconClass]="'fa fa-check'"
+                  [footerText]="'Daily_Data information'">
+                </lbd-chart>
+            </div>
+           
+        </div>
+    </div>
+</div>

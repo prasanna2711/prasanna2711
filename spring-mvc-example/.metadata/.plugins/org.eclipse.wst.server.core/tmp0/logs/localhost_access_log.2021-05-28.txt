@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/May/2021:13:17:06 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/May/2021:13:23:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:26:46 +0530] "GET /spring-mvc-example/getBaseLineVersionTestServer HTTP/1.1" 200 2029
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:26:49 +0530] "GET /spring-mvc-example/getTestServerSummary HTTP/1.1" 200 951
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:26:52 +0530] "GET /spring-mvc-example/getLiveServerSummary HTTP/1.1" 200 1170
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:26:55 +0530] "GET /spring-mvc-example/getTestServerSummary HTTP/1.1" 200 951
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:27:03 +0530] "GET /spring-mvc-example/getDailyData HTTP/1.1" 200 1151
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:27:13 +0530] "GET /spring-mvc-example/getDailyServerData?type=live HTTP/1.1" 200 536
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:27:13 +0530] "GET /spring-mvc-example/getDailyServerData?type=test HTTP/1.1" 200 536
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:27:26 +0530] "GET /spring-mvc-example/getServerStatus HTTP/1.1" 200 114
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:31:02 +0530] "GET /spring-mvc-example/getTestServerSummary HTTP/1.1" 500 3257
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:31:02 +0530] "GET /spring-mvc-example/getBaseLineVersionTestServer HTTP/1.1" 500 3272
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:31:18 +0530] "GET /spring-mvc-example/getTestServerSummary HTTP/1.1" 200 951
+0:0:0:0:0:0:0:1 - - [28/May/2021:13:31:19 +0530] "GET /spring-mvc-example/getBaseLineVersionTestServer HTTP/1.1" 200 2029

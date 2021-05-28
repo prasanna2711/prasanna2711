@@ -1,0 +1,49 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Test Server Inormation</h4>
+                    </div>
+                    <div class="content table-responsive table-full-width">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th [ngStyle]="{'background-color':'yellow'}"
+                                        class="stickey_header ">Date</th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header  tab-hide">BuildNumber </th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header ">Status</th>
+                                        <th [ngStyle]="{'background-color':'yellow'}"
+                                        class="stickey_header ">Last-CheckIn</th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header  tab-hide">TaskName </th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header ">ChangesDone</th>
+                                        <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header  tab-hide">CodeDone </th>
+                                    <th [ngStyle]="{'background': 'yellow'}"
+                                        class="stickey_header ">Summary</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let list of testServerList">
+                                    <td style="text-transform: capitalize">{{list.date}}</td>
+                                    <td style="text-transform: capitalize">{{list.buildNumber}}</td>
+                                    <td style="text-transform: capitalize">{{list.status}}</td>
+                                    <td style="text-transform: capitalize">{{list.lastCheckIn}}</td>
+                                    <td style="text-transform: capitalize">{{list.taskName}}</td>
+                                    <td style="text-transform: capitalize">{{list.changesDone}}</td>
+                                    <td style="text-transform: capitalize">{{list.codeDone}}</td>
+                                    <td style="text-transform: capitalize">{{list.summary}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
